@@ -11,10 +11,10 @@ export default siteConfig({
   // basic site info (required)
   name: '我杂乱无章的记事本',
   domain: 'nextjs-notion-starter-kit-hazel-ten.vercel.app',
-  author: 'wugensheng',
+  author: 'shinu',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Personal site of shinu',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -26,7 +26,9 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'icon.jpg',
+  // defaultPageIcon: 'https://github.com/wugensheng-code/nextjs-notion-starter-kit/blob/main/public/icon.png',
+  // defaultPageCover: 'https://github.com/wugensheng-code/nextjs-notion-starter-kit/blob/main/public/defaultPageCover.png',
+  defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
